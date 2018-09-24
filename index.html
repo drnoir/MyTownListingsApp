@@ -59,7 +59,21 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <div class="col-md-6"><h1>My Town</h1>
+        <div class="col-md-4"><h1>My Town</h1>
+          <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+          <p>Town Name:</p>
+          <!-- Large button group -->
+        <div class="btn-group">
+          <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Manchester<span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li>London</li>
+            <li>Bolton</li>
+          </ul>
+        </div>
+
+
           <h2>Filters</h2>
           <h3>Offer Catergory</h3>
           <div class="list-group">
@@ -72,7 +86,7 @@
               <a href="#" class="list-group-item">Vestibulum at eros</a>
             </div>
         </div>
-        <div class="col-md-6"><div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de">webseite erstellen lassen</a></div><style>.mapouter{text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
+        <div class="col-md-8"><div class="mapouter"><div class="gmap_canvas"><iframe width="800" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20san%20francisco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de">webseite erstellen lassen</a></div><style>.mapouter{text-align:right;height:500px;width:800px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:800px;}</style></div></div>
       </div>
     </div>
 
@@ -80,16 +94,19 @@
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
+           <div class="thumbnail"><img src="placeholder.png" alt="..."></div>
           <h2>Offer</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
           <p><a class="btn btn-default" href="#" role="button" data-toggle="modal" data-target="#myModal">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">
+            <div class="thumbnail"><img src="placeholder.png" alt="..."></div>
           <h2>Offer</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
        </div>
         <div class="col-md-4">
+            <div class="thumbnail"><img src="placeholder.png" alt="..."></div>
           <h2>Offer</h2>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
@@ -102,16 +119,19 @@
           <!-- Example row of columns -->
           <div class="row">
             <div class="col-md-4">
+                <div class="thumbnail"><img src="placeholder.png" alt="..."></div>
               <h2>Offer</h2>
               <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
               <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
             </div>
             <div class="col-md-4">
+                <div class="thumbnail"><img src="placeholder.png" alt="..."></div>
               <h2>Offer</h2>
               <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
               <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
            </div>
             <div class="col-md-4">
+                <div class="thumbnail"><img src="placeholder.png" alt="..."></div>
               <h2>Offer</h2>
               <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
               <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
@@ -130,10 +150,10 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+          <h4 class="modal-title" id="myModalLabel">Offer</h4>
         </div>
         <div class="modal-body">
-          ...
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae lacus ex. Nunc cursus nunc id elit consequat, sit amet dignissim ex egestas. Aliquam purus ante, posuere suscipit ornare id, tristique ut ligula. Quisque ac urna elementum nisi semper cursus eget sit amet risus. Proin ut elementum mi. Quisque id efficitur est, eu efficitur lacus. Cras eu felis sagittis, posuere metus sed, aliquet purus. Maecenas quis auctor libero. Mauris sagittis consequat urna in luctus.</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
