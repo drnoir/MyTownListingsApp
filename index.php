@@ -15,7 +15,7 @@ $f3->route('GET /',
         $view=new View;
 		echo $view->render('html/header.html');
 		echo $view->render('html/menu.html');
-		echo $view->render('html/MapTown.html'); 
+		echo $view->render('templates/MapTown.php'); 
 		echo $view->render('templates/OfferView.php');
 
 		// echo Template::instance()->render('templates/OfferView.php');
