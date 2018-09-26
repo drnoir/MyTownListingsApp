@@ -18,9 +18,6 @@ $f3->route('GET /',
 		echo $view->render('templates/MapTown.php'); 
 		echo $view->render('templates/OfferView.php');
 
-		// echo Template::instance()->render('templates/OfferView.php');
-
-		//TEST -  QUERY TO REFINE - Select all where Town ID = 
     }
 );
 $f3->run();
