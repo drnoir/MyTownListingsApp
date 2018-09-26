@@ -12,5 +12,7 @@ $db=new \DB\SQL('mysql:host=localhost;port=3306;dbname=offers','admin','Ingrin_5
     "<h3>RedeemCode:</h3>",
     $row['RedeemCode'],
     "<a class='btn btn-default' href='#' role='button'>View details &raquo;</a>",
-     "</div>"
+     "</div>
+    
+     </div>"
 ?>
